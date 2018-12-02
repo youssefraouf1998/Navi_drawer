@@ -19,7 +19,7 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class BlankFragment3 extends Fragment {
-
+//jyjgkhn/lknk.b
     private RecyclerView recyclerView;
     private recycle_view_adapter recyclerviewaAdapter;
     public List<data> listItems;
