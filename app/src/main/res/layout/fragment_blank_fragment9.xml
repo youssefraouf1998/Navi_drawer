@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FAQS"
-        android:layout_weight=""
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#000"
