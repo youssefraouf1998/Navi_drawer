@@ -25,7 +25,7 @@ public class BlankFragment10 extends Fragment {
         // Inflate the layout for this fragment
         if(container != null)container.removeAllViews();
 
-        return inflater.inflate(R.layout.fragment_blank_fragment12, container, false);
+        return inflater.inflate(R.layout.fragment_blank_fragment10, container, false);
     }
 
 }

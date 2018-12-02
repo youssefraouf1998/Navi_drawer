@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity
 
             fragmentTransaction.commit();
 
-        }else if (id == R.id.privacy) {
+        }else if (id == R.id.about) {
 
             BlankFragment7 blankFragment7 = new BlankFragment7();
             fragmentTransaction.replace(R.id.frame_1,blankFragment7);
@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity
 
         }else if (id == R.id.faq) {
 
-            BlankFragment9 blankFragment9 = new BlankFragment9();
-            fragmentTransaction.replace(R.id.frame_1,blankFragment9);
+            BlankFragment7 blankFragment7 = new BlankFragment7();
+            fragmentTransaction.replace(R.id.frame_1,blankFragment7);
 
             fragmentTransaction.commit();
 
