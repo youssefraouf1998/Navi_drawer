@@ -24,7 +24,7 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-
+if(container != null)container.removeAllViews();
         return inflater.inflate(R.layout.fragment_blank, container, false);
     }
 
