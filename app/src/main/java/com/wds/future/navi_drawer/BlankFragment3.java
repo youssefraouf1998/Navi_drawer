@@ -12,6 +12,7 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 public class BlankFragment3 extends Fragment {
+//;in;ikjm;jml/n;jn
 
 
     public BlankFragment3() {
