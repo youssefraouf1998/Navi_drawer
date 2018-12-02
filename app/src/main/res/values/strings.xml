@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Navi_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="polices">Terms &amp; conditions</string>
+    <string name="region">Region &amp; Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ques1">Franchising Frequently Asked Questions
+
+How much money will I make?</string>
+    <string name="faqs">
+Profitability depends on many factors including operating and occupancy costs,
+        financing terms and most important, your ability to operate the business effectively.
+    Profitability depends on many factors including operating and occupancy costs,
+        financing terms and most important, your ability to operate the business effectively.
+    Profitability depends on many factors including operating and occupancy costs,
+        financing terms and most important, your ability to operate the business effectively.
+    Profitability depends on many factors including operating and occupancy costs,
+ </string>
+</resources>

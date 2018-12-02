@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="News" />
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Offers" />
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Food" />
+        <item
+            android:id="@+id/restaurants"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Restaurants" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Account" />
+    </group>
+
+    <item android:title="  ">
+        <menu>
+            <item
+                android:id="@+id/Terms"
+                android:icon="@drawable/ic_insert_drive_file_black_24dp"
+                android:title="@string/polices" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_insert_drive_file_black_24dp"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/faq"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/region"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/region" />
+
+        </menu>
+    </item>
+
+</menu>
