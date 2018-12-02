@@ -142,14 +142,8 @@ public class MainActivity extends AppCompatActivity
 
             fragmentTransaction.commit();
 
-        }else if (id == R.id.region) {
-
-            BlankFragment10 blankFragment10 = new BlankFragment10();
-            fragmentTransaction.replace(R.id.frame_1,blankFragment10);
-
-            fragmentTransaction.commit();
-
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
