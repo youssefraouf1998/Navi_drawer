@@ -37,6 +37,7 @@ public class BlankFragment10 extends Fragment {
         ArrayAdapter<String>adapter2=new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_dropdown_item,coun);
 
 
+        //kjnijnjn
         // Inflate the layout for this fragment
         if(container != null)container.removeAllViews();
 
