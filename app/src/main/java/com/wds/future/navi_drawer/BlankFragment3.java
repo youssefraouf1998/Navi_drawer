@@ -28,7 +28,7 @@ public class BlankFragment3 extends Fragment {
     public BlankFragment3() {
         // Required empty public constructor
     }
-
+    //ay 7aga
 
     @Nullable
     @Override
