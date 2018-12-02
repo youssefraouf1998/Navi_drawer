@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.frame_1,blankFragment4);
 
             fragmentTransaction.commit();
-
+//lihkjb
         } else if (id == R.id.account) {
 
             BlankFragment5 blankFragment5 = new BlankFragment5();
