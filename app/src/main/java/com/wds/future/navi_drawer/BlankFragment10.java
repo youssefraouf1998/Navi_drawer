@@ -18,7 +18,6 @@ import java.util.zip.Inflater;
 public class BlankFragment10 extends Fragment {
 
     Spinner spiner1,spinner2;
-    View v;
     public BlankFragment10() {
         // Required empty public constructor
     }
@@ -29,6 +28,9 @@ public class BlankFragment10 extends Fragment {
                              Bundle savedInstanceState) {
 
 
+
+        View v= inflater.inflate(R.layout.fragment_blank_fragment10, container, false);
+
         spiner1=(Spinner)v.findViewById(R.id.sp1);
         spinner2=(Spinner)v.findViewById(R.id.sp2);
         String []lang={"arbic","english-usa","china","indian"};
@@ -36,12 +38,9 @@ public class BlankFragment10 extends Fragment {
         ArrayAdapter<String> adapter1=new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_dropdown_item,lang);
         ArrayAdapter<String>adapter2=new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_dropdown_item,coun);
 
-
-        //kjnijnjn
-        // Inflate the layout for this fragment
         if(container != null)container.removeAllViews();
 
-        inflater.inflate(R.layout.fragment_blank_fragment10, container, false);
+
          return v;
     }
 
