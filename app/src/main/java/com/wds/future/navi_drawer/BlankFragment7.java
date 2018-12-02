@@ -23,7 +23,9 @@ public class BlankFragment7 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank_fragment9, container, false);
+        if(container != null)container.removeAllViews();
+
+        return inflater.inflate(R.layout.fragment_blank_fragment7, container, false);
     }
 
 }

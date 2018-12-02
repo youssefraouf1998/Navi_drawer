@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,8 +14,34 @@
     <TextView
         android:layout_gravity="center"
         android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="O Burger Story" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sometimes you need to know where you’ve been to know where you want to go. Which is why we’re pretty damn proud of our roots – from the first store in Auckland, New Zealand in 1995, to the globally growing gourmet burger brand you know, love, obsess over (and sometimes even stalk on Instagram) today." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center"
+        android:text="The year 1995, destined for yet–to-be-invented useless trivia websites was saved from anonymity when the first BurgerFuel store was launched by Burger Master, Dr Mason.
+With Mason at at the wheel, this concept store on Ponsonby Road introduced a gourmet burger with fresher and more natural ingredients, delivered in a high energy environment conjured up from the images of flames, internal combustion and the desire to fuel and fire the human engine.
+The passion driving the products, people and promotions set BurgerFuel apart from anything else in the fast-casual food category, and still pave the way today.
+
+"
+        android:textSize="20sp" />
+
 
 </LinearLayout>
+</ScrollView>
